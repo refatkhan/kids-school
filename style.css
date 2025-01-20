@@ -38,6 +38,8 @@ body{
 .secondary-button{
     padding: 10px;
     background: black;
+    display: inline;
+    border-radius: 12px;
 
 }
  .display-none{
@@ -79,12 +81,38 @@ body{
     padding: 10px 60px;
 }
 
-
+img{
+    width: 100%;
+}
 
 /* Banner Part */
-
-
-
+.banner-container{
+    gap: 50px;
+}
+.banner-text{
+    max-width: 640px;
+}
+.banner-text h1 {
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 61px;
+}
+.first{
+  color: var(--orange);
+}
+.second{
+    color: var(--skyblue);
+}
+.banner-text > p{
+    margin: 24px 0;
+}
+.banner-text .enroll a {
+font-size: 1.25rem;
+font-weight: bold;
+line-height: 30px;
+padding:10px 47px ;
+color: #FFFFFF;
+}
 
 
 
