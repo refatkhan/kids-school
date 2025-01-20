@@ -149,14 +149,14 @@ body {
 }
 
 /* curriculum-container */
-/* .curriculum{
+.curriculum{
     background: url(./assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 .curriculum-container {
-    margin: 60px 0;
+    padding: 60px 0;
 }
 
 .curriculum-card {
@@ -206,13 +206,20 @@ body {
     color: #8700FF;
 }
 .arrow-icon {
-    background-color: red;
-    display: inline-block;
+    /* background-color: red;
+    display: inline-block; */
+    gap: 30px;
+    justify-content: center;
 
 }
 .arrow-icon .left{
     display: inline;
-    
+    padding: 18px 23px 20px 23px;
+    background-color: var(--orange);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width:576px) {
 
