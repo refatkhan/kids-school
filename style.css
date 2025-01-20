@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --orange: orange ;
+    --black: black;
+    --skyblue: #01ACFD;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: "Quicksand", serif;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* Shared CSS */
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.all-h3{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 57.5px;
+}
+.all-p{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.secondary-button{
+    padding: 10px;
+    background: black;
+
+}
+ .display-none{
+    display: none;
+ }
+
+/* Header Part */
+.nav-container{
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.nav-logo {
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.nav-items ul {
+   gap: 20px;
+}
+#first{
+    color: orange ;
+}
+#second{
+    color: #01ACFD ;
+}
+#third{
+    color: #05D4DF;
+}
+#fourth{
+    color: #5D58EF;
+}
+.button{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 12px;
+}
+.button > a{
+    color: #FFFFFF;
+    padding: 10px 60px;
+}
+
+
+
+/* Banner Part */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-logo >p ,
+    .nav-items,
+    .button
+    {
+        display: none;
+    }
+    .menu-icon{
+        display: unset;
+    }
+    .nav-container{
+        align-items: center;
+        margin: 12px 16px;
+    }
+}
+
+    
