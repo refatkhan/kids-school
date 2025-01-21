@@ -251,6 +251,12 @@ border: none;
 .left-card, .stories-card{
     background-color: #FFFFFF;
     border-radius:  16px; 
+    position: relative;
+}
+.left-card > span{
+position: absolute;
+left: 38px;
+top: 48%;
 }
 .left-card > h5 {
     font-size: 1.5rem;
@@ -275,7 +281,6 @@ border: none;
     max-width: 600px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* align-items: normal; */
     gap: 20px;
     
 }
@@ -296,8 +301,8 @@ border: none;
     background-color: #95B226;
     border-radius: 48px;
 }
-.stories-card{
-    position: relative;
+#diffrent {
+    background-color: #5D58F0;
 }
 .stories-card > span{
     position: absolute;
