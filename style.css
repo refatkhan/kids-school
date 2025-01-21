@@ -67,7 +67,7 @@ body {
     
 }
  hr{
-height: 3px;
+height: 1px;
 background-color: var(--orange);
 border: none;
 }
@@ -109,7 +109,9 @@ border: none;
     background-color: orange;
     border-radius: 12px;
 }
-
+.button:hover{
+    background-color: var(--skyblue);
+}
 .button > a {
     color: #FFFFFF;
     font-size: 1.5rem;
@@ -156,8 +158,9 @@ border: none;
     line-height: 30px;
     color: #FFFFFF;
 }
-
-
+.enroll:hover{
+    background-color: var(--orange);
+}
 /* curriculum-container */
 .curriculum{
     background: url(./assets/bg.png);
@@ -230,6 +233,9 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.left:hover{
+    background-color: var(--skyblue);
 }
  /* ------------------------Stories------------------------------- */
 .stories{
@@ -310,6 +316,21 @@ top: 48%;
     left: 38px;
 }
 
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view a:hover{
+    background-color: var(--orange);
+}
+.view a{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 60px;
+}
 /* ----------------------Footer-------------------------- */
 .footer{
     background-color: #01ACFD;
@@ -446,6 +467,9 @@ margin-top: 35px;
     .left-card{
         display: none;
     }
+    .stories-image-card {
+        margin: 40px 0;
+    }
 
     /* ----------------------Footer Responsive-------------------------- */
     .footer-container {
@@ -461,4 +485,7 @@ margin-top: 35px;
    .footer-container{
     padding: 60px 16px;
    }
+}
+@media screen and (max-width:460) {
+
 }
