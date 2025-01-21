@@ -287,11 +287,7 @@ border: none;
     margin-left: 38px;
     margin-top: 38px;
 }
-.stories-card, .left-card {
-    position: relative;
-}
-.stories span{
-    position: absolute;
+.all-span{
     font-size: 1rem;
     line-height: 29px;
     font-family: "Raleway", serif;
@@ -299,6 +295,12 @@ border: none;
     padding: 10px 20px;
     background-color: #95B226;
     border-radius: 48px;
+}
+.stories-card{
+    position: relative;
+}
+.stories-card > span{
+    position: absolute;
     top: 48%;
     left: 38px;
 }
