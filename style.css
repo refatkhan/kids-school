@@ -231,10 +231,31 @@ border: none;
     justify-content: center;
     align-items: center;
 }
+ /* ------------------------Stories------------------------------- */
+.stories{
+    padding: 60px 0;
+}
+.stories img{
+    width: 100%;
+}
+.stories-image-card {
+    gap: 20px;
+    align-items: normal;
+}
+.left-card > h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 38px;
+    color: #000000;
+}
+.right-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* align-items: normal; */
+    
+}
 
-
-
-/* Footer */
+/* ----------------------Footer-------------------------- */
 .footer{
     background-color: #01ACFD;
     width: 100%;
