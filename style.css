@@ -380,7 +380,7 @@ margin-top: 35px;
 /* Responsive */
 
 @media screen and (max-width:576px) {
-
+    /* ---------------Shared Responsive----------------- */
     .nav-logo>p,
     .nav-items,
     .button,
@@ -397,7 +397,7 @@ margin-top: 35px;
         align-items: center;
         margin: 12px 16px;
     }
-
+/* ------------------Banner REsponsive------------------------------- */
     .banner-container {
         flex-direction: column-reverse;
         align-items: center;
@@ -426,6 +426,7 @@ margin-top: 35px;
         padding: 16px 24px;
         border-radius: 8px;
     }
+    /* --------------------Curriculum Responsive--------------------- */
     .curriculum-card{
         flex-direction: column;
     }
@@ -441,6 +442,12 @@ margin-top: 35px;
     .curriculum-container {
         padding: 40px 0;
     }
+/* ----------------------Stories Responsive------------------------- */
+    .left-card{
+        display: none;
+    }
+
+    /* ----------------------Footer Responsive-------------------------- */
     .footer-container {
         flex-direction: column;
         gap: 32px;
