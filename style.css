@@ -412,8 +412,8 @@ margin-top: 35px;
 @media screen and (max-width: 475px) {
     .stories-card > span {
         position: absolute;
-        top: 40%;
-        left: 22px;
+        top: 52%;
+        left: 20px;
     }
     .nav-logo>p,
     .nav-items,
@@ -441,10 +441,15 @@ margin-top: 35px;
         flex-direction: column;
         gap: 32px;
     }
+    .all-span{
+        font-size: .5rem;
+        line-height: 15px;
+        padding: 5px 10px ;
+    }
   }
 /* Responsive */
 
-@media screen and (min-width: 476px) and (max-width: 576px) {
+@media screen  and  (min-width: 476px) and (max-width: 576px) {
     /* ---------------Shared Responsive----------------- */
     .nav-logo>p,
     .nav-items,
