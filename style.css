@@ -409,10 +409,42 @@ margin-top: 35px;
 }
 
 
-
+@media screen and (max-width: 475px) {
+    .stories-card > span {
+        position: absolute;
+        top: 40%;
+        left: 22px;
+    }
+    .nav-logo>p,
+    .nav-items,
+    .button,
+    .arrow-icon {
+        display: none;
+    }
+    .display-none{
+        display: block;
+       }
+       .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .curriculum-card{
+        flex-direction: column;
+    }
+    .left-card{
+        display: none;
+    }
+    .footer-container {
+        padding: 40px 20px;
+        flex-direction: column;
+        gap: 32px;
+    }
+  }
 /* Responsive */
 
-@media screen and (max-width:576px) {
+@media screen and (min-width: 476px) and (max-width: 576px) {
     /* ---------------Shared Responsive----------------- */
     .nav-logo>p,
     .nav-items,
@@ -420,9 +452,6 @@ margin-top: 35px;
     .arrow-icon {
         display: none;
     }
-    /* .menu-icon{
-        display: unset;
-    } */
    .display-none{
     display: block;
    }
@@ -498,8 +527,8 @@ margin-top: 35px;
     }
     .stories-card > span {
         position: absolute;
-        top: 52%;
-        left: 22px;
+        top: 65%;
+        left: 30px;
     }
     .view a{
         font-size: 1rem;
